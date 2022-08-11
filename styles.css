@@ -1,0 +1,368 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/********************************************************(Reset)***********************************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+
+/**************************************************** NAV Section *********************************************************/
+
+nav{
+     
+     display: flex; 
+     justify-content: space-between; 
+     align-items: center; 
+     max-width: 1366px; 
+     margin: 0 auto; 
+     padding: 2rem 5rem; 
+     height: 10vh; 
+     
+}
+
+    nav .logo{ 
+   
+     display: flex; 
+     font-size: 2rem; 
+     align-items: center; 
+
+    }
+
+    nav .logo i {  /*------*/
+
+      color: #7c8664; 
+      padding-right: 0.75rem; 
+
+    }
+
+    nav .logo h4 { /*-------*/
+       
+      font-family: 'Roboto', sans-serif; 
+
+    }
+
+nav .nav-items { 
+ 
+     display: flex; 
+     list-style-type: none; 
+
+}
+   
+    nav .nav-items .nav-items { 
+     
+        padding: 0 1rem; 
+
+    }
+   
+    nav .nav-link { /*-------*/
+     
+        text-decoration: none; 
+        color: #7c8664; 
+        font-size: 1.3rem; 
+
+    }
+
+    nav .nav-link:hover { 
+     
+        color: #adba8d;
+
+    }
+
+/************************************************* Hero Section *********************************************************/
+
+.hero{ 
+
+  background-color: whitesmoke; 
+
+}
+
+.hero-section{  
+   
+  max-width: 1366px; 
+  height: 90vh; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 0 auto; 
+  padding: 0 5rem; 
+
+}
+
+.hero-section .content{ 
+   
+  display: flex; 
+  flex-direction: column; 
+  padding-right: 1rem;
+
+}
+
+.hero-section h4 { /*---------*/
+
+  color: #7c8664; 
+  font-size: 1.6rem;
+  margin-bottom: 1rem; 
+
+}
+
+.hero-section h1 { 
+
+  font-size: 2.6rem; 
+  margin-bottom: 1rem; 
+
+}
+
+.hero-section p { 
+
+  color: black;
+  font-size: 1.3rem;
+
+}
+
+.hero-section p span { /*------*/
+
+  font-size: 1.4rem;
+  color: #8e9a70;
+
+}
+
+.btn{ /*------*/
+
+  width: 10rem; 
+  margin-top: 3rem; 
+  border-radius: 0.5rem; 
+  outline: none; 
+  border: none; 
+  padding: 0.75rem 1.5rem;  
+  background-color: #7c8664; 
+
+}
+
+.btn:hover { /*------*/
+
+  background-color: #adba8d; 
+  cursor: pointer; 
+}
+
+.btn a { 
+
+  text-decoration: none; 
+  color: white; 
+  font-size: 1.1rem; 
+
+}
+
+/************************************************* Features-section ****************************************************/
+
+.features {
+
+    background-color: whitesmoke;
+
+}
+
+.features-section{
+
+  padding: 2rem 0;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.features-section h4 { /*------*/
+
+  color: #7c8664;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+
+.features-section .qualities {
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+
+}
+
+.features-section .qualities .quality {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
+  max-width: 17rem;
+  border-radius: 1rem;
+  margin: 1rem;
+
+}
+
+.features-section .qualities .quality:hover { /*------*/
+
+  border: 2px solid #7c8664;
+
+}
+
+.qualities .quality i { /*------*/
+
+  font-size: 2rem;
+  color: #7c8664;
+  margin-bottom: 1rem;
+
+}
+
+.qualities .quality h3 {
+
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
+
+.qualities .quality p {
+
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(42, 42, 42);
+
+}
+
+/********************************************** Program catalog section ************************************************/
+
+.program-catalog {
+
+  padding: 3rem;
+
+}
+
+.program-catalog .catalog {
+
+  padding: 0 5rem;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.catalog h4 { /*------*/
+
+  color: #7c8664;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+
+}
+
+.catalog .programs {
+
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  justify-content: flex-start;
+
+}
+
+.programs .program {
+
+  margin: 2rem 0;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.program img {
+
+    width: 18rem;
+    height: 18rem;
+    margin-bottom: 1rem;
+  
+}
+
+.program img:hover {
+
+  scale: 1.1;
+
+}
+
+.program h3 {
+
+  font-size: 1.6rem;
+
+}
+
+.catalog button {
+
+  width: 8rem;
+  margin-bottom: 1rem;
+  align-self: center;
+
+}
+
+/*********************************************** Footer section *****************************************************/
+
+footer {
+
+  background-color: whitesmoke;
+  height: 15vh;
+  margin-top: 2rem;
+  padding: 2rem 0;
+
+}
+
+.footer-section{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+
+}
+
+.footer-section p {
+
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+
+}
+
+.footer-section .socials {
+
+  margin-bottom: 1rem;
+
+}
+
+.footer-section .socials i {
+
+  padding: 0 0.5rem;
+  font-size: 1.6rem;
+
+}
+
+.footer-section .socials i:hover { /*------*/
+
+  color: #7c8664;
+  cursor: pointer;
+
+}
+
+.socials a {
+
+  text-decoration: none; 
+  color: #7c8664;
+        
+}
+
+/************************************************ Responsive design *************************************************/
+
